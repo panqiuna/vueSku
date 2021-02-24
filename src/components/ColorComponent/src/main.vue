@@ -18,7 +18,7 @@
     props: {
       goodsColorList: {
         type: Array,
-        delete: () => {
+        default: () => {
           return []
         }
       }
